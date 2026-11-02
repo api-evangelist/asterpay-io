@@ -1,4 +1,4 @@
-# asterpay-io
+# AsterPay
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-asterpay-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://asterpay.io/
+AsterPay, operated by AELIRA LTD in Cyprus, provides an EUR‑native facilitator for AI agent payments. It supports x402 (Coinbase) and MPP (Stripe/Tempo) protocols, converting USDC to EUR via SEPA Instant, with KYA trust scoring and MiCA alignment. Agents can pay merchants directly to their bank accounts in under 10 seconds, with transparent fees and compliance features.
+
+**Areas:** Payments · FinTech · AI · EUR · Settlement
+
+## AsterPay on APIs.io
+
+Everything profiled for AsterPay is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/asterpay-io/](https://apis.io/providers/asterpay-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [AsterPay AI API](https://apis.io/apis/asterpay-io/asterpay-io-ai-api/) — The ai API from AsterPay — 8 operation(s) for ai.
+- [AsterPay Crypto API](https://apis.io/apis/asterpay-io/asterpay-io-crypto-api/) — The crypto API from AsterPay — 3 operation(s) for crypto.
+- [AsterPay Data API](https://apis.io/apis/asterpay-io/asterpay-io-data-api/) — The data API from AsterPay — 39 operation(s) for data.
+- [AsterPay Discovery API](https://apis.io/apis/asterpay-io/asterpay-io-discovery-api/) — The discovery API from AsterPay — 1 operation(s) for discovery.
+- [AsterPay Market API](https://apis.io/apis/asterpay-io/asterpay-io-market-api/) — The market API from AsterPay — 5 operation(s) for market.
+- [AsterPay Sessions API](https://apis.io/apis/asterpay-io/asterpay-io-sessions-api/) — The sessions API from AsterPay — 1 operation(s) for sessions.
+- [AsterPay Settlement API](https://apis.io/apis/asterpay-io/asterpay-io-settlement-api/) — The settlement API from AsterPay — 3 operation(s) for settlement.
+- [AsterPay Trust API](https://apis.io/apis/asterpay-io/asterpay-io-trust-api/) — The trust API from AsterPay — 6 operation(s) for trust.
+- [AsterPay Utility API](https://apis.io/apis/asterpay-io/asterpay-io-utility-api/) — The utility API from AsterPay — 1 operation(s) for utility.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Asterpay Io Agentic Access](https://apis.io/agentic-access/asterpay-io/asterpay-io-agentic-access/)
+
+#### Overlays (2)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Asterpay Io Asterpay_Io_Openapi Overlay](https://apis.io/overlays/asterpay-io/asterpay-io-asterpay_io_openapi-overlay/)
+- [Asterpay Io X402_Openapi Overlay](https://apis.io/overlays/asterpay-io/asterpay-io-x402_openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AsterPay API Rules](https://apis.io/rules/asterpay-io/asterpay-io-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Asterpay Io Authentication](https://apis.io/security/asterpay-io/asterpay-io-authentication/)
+- [Asterpay Io Domain Security](https://apis.io/security/asterpay-io/asterpay-io-domain-security/)
+- [Asterpay Io Trust Center](https://apis.io/security/asterpay-io/asterpay-io-trust-center/)
+- [Asterpay Io Vulnerability Disclosure](https://apis.io/security/asterpay-io/asterpay-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Asterpay Io Plans Pricing](https://apis.io/plans/asterpay-io/asterpay-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Asterpay Io Rate Limits](https://apis.io/rate-limits/asterpay-io/asterpay-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://asterpay.io/)
+- [Documentation](https://asterpay.io/docs/)
+- [Getting started](https://asterpay.io/#top)
+- [API reference](https://asterpay.io/docs/)
+- [Pricing](https://asterpay.io/#pricing)
+- [Sign up](https://app.asterpay.io/signup)
+- [Blog](https://asterpay.io/blog/)
+- [Security](https://asterpay.io/security/)
+- [Compliance](https://asterpay.io/trust/)
+- [Terms of service](https://asterpay.io/terms)
+- [Privacy policy](https://asterpay.io/privacy)
+- [GitHub](https://github.com/AsterPay)
+- [Status](https://asterpay.io/status/)
+
+## API Evangelist rating
+
+**Kin Score 66.7** — exemplar · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 48.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.5 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 88.9 |
+
+**Agent readiness 46.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.0** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/asterpay-io/](https://apis.io/providers/asterpay-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AsterPay: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/asterpay-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
